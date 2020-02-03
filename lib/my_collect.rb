@@ -2,7 +2,7 @@
 def my_collect(collection)
   result = []
   for item in collection
-    result.push 
+    result.push yield 
   end
   return result
 end
