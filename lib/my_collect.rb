@@ -2,9 +2,8 @@
 def my_collect(collection)
   result = []
   for item in collection do
-    result.push(item)
-    yield(item)  
-  end
+    result.push 
+    end
   return result
 end
 
