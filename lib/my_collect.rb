@@ -1,9 +1,9 @@
 
 def my_collect(collection)
   result = []
-  for item in collection do
+  for item in collection
     result.push 
-    end
+  end
   return result
 end
 
