@@ -3,7 +3,7 @@ def my_collect(collection)
   result = []
   for item in collection do
     result.push(item)
-    yield item  
+    yield(item)  
   end
   return result
 end
