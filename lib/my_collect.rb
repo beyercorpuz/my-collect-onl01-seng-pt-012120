@@ -4,3 +4,5 @@ my_collect(collection) do |lang|
 end
  
 # => ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
+
+def 
