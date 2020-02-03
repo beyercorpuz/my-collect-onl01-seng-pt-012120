@@ -5,4 +5,9 @@ end
  
 # => ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
 
-def 
+def my_collect(collection)
+  for item in collection do
+    yield item  
+  end
+  
+end
